@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MainhomeComponent } from './mainhome/mainhome.component';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
 import { LoginadminComponent } from './loginadmin/loginadmin.component';
 import { AddmemberComponent } from './addmember/addmember.component';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { UserloginComponent } from './userlogin/userlogin.component'
 
 @NgModule({
   declarations: [
@@ -18,9 +18,9 @@ import { HttpClientModule } from '@angular/common/http'
     NavbarComponent,
     MainhomeComponent,
     AdminhomeComponent,
-    SidebarComponent,
     LoginadminComponent,
-    AddmemberComponent
+    AddmemberComponent,
+    UserloginComponent
   ],
   imports: [
     BrowserModule,

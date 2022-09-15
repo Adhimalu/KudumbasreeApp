@@ -16,4 +16,7 @@ export class ApiService {
   updateuser=(user:any)=>{
     return this.http.put<any>("http://localhost:3000/update/"+user._id,user)
   }
+  adduser=(user:any)=>{
+    return this.http.get<any>("http://localhost:3000/register",user)
+  } 
 }
